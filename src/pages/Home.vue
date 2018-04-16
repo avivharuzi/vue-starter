@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ msg }}
+    <p>{{ header }}</p>
   </div>
 </template>
 
@@ -9,12 +9,8 @@ export default {
   name: 'Home',
   data () {
     return {
-      msg: 'home page'
+      header: 'this is home page'
     }
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>
