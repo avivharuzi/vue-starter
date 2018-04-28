@@ -5,6 +5,11 @@ import router from './router'
 // Styles
 import '@/scss/index.scss'
 
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title
+  next()
+})
+
 Vue.config.productionTip = false
 
 new Vue({
