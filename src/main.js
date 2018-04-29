@@ -3,7 +3,7 @@ import App from './App'
 import router from './router'
 
 // Styles
-import '@/scss/index.scss'
+import '@/scss/main.scss'
 
 router.beforeEach((to, from, next) => {
   document.title = to.meta.title
