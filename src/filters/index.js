@@ -1,1 +1,2 @@
-export { ucwords } from './ucwords';
+export { ucwords } from './ucwords'
+export { capitalize } from './capitalize'
