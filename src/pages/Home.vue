@@ -1,3 +1,3 @@
 <template>
-  <h1>{{ 'loco loco' | ucwords }}</h1>
+  <h1>{{ 'loco loco' | truncate(5, 5) }}</h1>
 </template>
