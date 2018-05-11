@@ -1,3 +1,3 @@
 <template>
-  <h1>{{ 'loco loco fFDFD 4423' | repeat(5) }}</h1>
+  <h1>{{ 'loco loco fFDFD DDDD' | lowercase }}</h1>
 </template>
