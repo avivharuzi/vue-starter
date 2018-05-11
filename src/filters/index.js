@@ -1,0 +1,1 @@
+export { ucwords } from './ucwords';
