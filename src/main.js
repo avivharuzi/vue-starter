@@ -7,7 +7,7 @@ import '@/scss/main.scss'
 
 // Filters
 import * as filters from './filters/index'
-console.log(filters)
+
 Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])
 })
