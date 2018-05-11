@@ -12,16 +12,13 @@ Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])
 })
 
-router.beforeEach((to, from, next) => {
-  document.title = to.meta.title
-  next()
-})
-
 Vue.config.productionTip = false
 
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: {
+    App
+  },
   template: '<App/>'
 })
