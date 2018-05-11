@@ -2,7 +2,9 @@
   <div class="error-page mt-5">
     <h1>404</h1>
     <h2>Sorry, the page you are looking for does not exist</h2>
-    <router-link tag="span" to="/"><button class="btn btn-lg mt-5">BACK TO HOME</button></router-link>
+    <router-link tag="span" to="/">
+      <button class="btn btn-lg mt-5">BACK TO HOME</button>
+    </router-link>
   </div>
 </template>
 
@@ -11,7 +13,8 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-align: center;
 
-    h1, h2 {
+    h1,
+    h2 {
       margin: 0;
     }
 
