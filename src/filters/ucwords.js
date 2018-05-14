@@ -1,4 +1,4 @@
-export function ucwords(value) {
+function ucwords(value) {
   let newValue = ''
   let words = value.split(' ')
   let space = ' '
@@ -11,3 +11,5 @@ export function ucwords(value) {
   }
   return newValue
 }
+
+export default ucwords

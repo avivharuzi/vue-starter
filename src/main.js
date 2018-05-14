@@ -11,11 +11,9 @@ import store from '@/store/index'
 import router from './router'
 
 // Filters
-import * as filters from './filters/index'
+import filters from '@/filters/index'
 
-Object.keys(filters).forEach(key => {
-  Vue.filter(key, filters[key])
-})
+Vue.use(filters)
 
 Vue.config.productionTip = false
 

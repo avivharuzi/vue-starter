@@ -1,3 +1,5 @@
-export function uppercase(value) {
+function uppercase(value) {
   return value.toUpperCase()
 }
+
+export default uppercase

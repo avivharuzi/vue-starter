@@ -1,4 +1,4 @@
-export function currency(value, symbol = '$', decimals = 2, options = {}) {
+function currency(value, symbol = '$', decimals = 2, options = {}) {
   let thousandsSeparator, symbolOnLeft, spaceBetweenAmountAndSymbol
   let digitsRE = /(\d{3})(?=\d)/g
   value = parseFloat(value)
@@ -31,3 +31,5 @@ export function currency(value, symbol = '$', decimals = 2, options = {}) {
   let sign = value < 0 ? '-' : ''
   return sign + symbol
 }
+
+export default currency

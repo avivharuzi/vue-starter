@@ -1,4 +1,4 @@
-export function truncate(value, limit, completeWords = false, ellipsis = '...') {
+function truncate(value, limit, completeWords = false, ellipsis = '...') {
   if (completeWords) {
     limit = value.substr(0, limit).lastIndexOf(' ')
   }
@@ -7,3 +7,5 @@ export function truncate(value, limit, completeWords = false, ellipsis = '...') 
   }
   return `${value.substr(0, limit)}${ellipsis}`
 }
+
+export default truncate

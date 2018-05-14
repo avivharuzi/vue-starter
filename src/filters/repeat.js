@@ -1,4 +1,4 @@
-export function repeat(value, n = 1, separator = '') {
+function repeat(value, n = 1, separator = '') {
   if (n <= 0) {
     throw new RangeError()
   }
@@ -10,3 +10,5 @@ function repeatWords(value, n, separator) {
     ? (n === 0 ? value : (value + separator + repeatWords(value, n - 1, separator)))
     : value
 }
+
+export default repeat
