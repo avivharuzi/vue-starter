@@ -33,6 +33,8 @@ const filters = {
     Object.keys(methods).forEach(key => {
       Vue.filter(key, methods[key])
     })
+
+    Vue.prototype['$filters'] = methods
   }
 }
 
