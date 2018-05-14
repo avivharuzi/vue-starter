@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './App'
+import App from '@/App'
 
 import store from '@/store/index'
-import router from './router'
+import router from '@/router/index'
 import filters from '@/filters/index'
 
 import '@/scss/main.scss'
