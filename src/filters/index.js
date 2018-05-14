@@ -11,6 +11,7 @@ import json from './json'
 import slice from './slice'
 import currency from './currency'
 import date from './date'
+import filesize from './filesize'
 
 const methods = {
   lowercase,
@@ -25,7 +26,8 @@ const methods = {
   json,
   slice,
   currency,
-  date
+  date,
+  filesize
 }
 
 const filters = {
