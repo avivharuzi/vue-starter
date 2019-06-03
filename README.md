@@ -1,2 +1,3 @@
-# vue-starter
-vue starter files project
+# Vue Starter
+
+Vue.js starter files project.
